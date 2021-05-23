@@ -92,6 +92,14 @@ h6 {
   color: #dddddd;
 }
 
+.typeform-position {
+  position: fixed;
+  top: calc(50% - 250px);
+  right: 0;
+  transition: width 300ms ease-out;
+  width: 0;
+}
+
 .btn-typeform-side {
   box-sizing: border-box;
   position: absolute;
