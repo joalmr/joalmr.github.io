@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'joalmr@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -25,12 +25,12 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
-  $contact->smtp = array(
-    'host' => 'smtp.sendgrid.net',
-    'username' => 'apikey',
-    'password' => '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',
-    'port' => '587'
-  );
+  // $contact->smtp = array(
+  //   'host' => 'smtp.sendgrid.net',
+  //   'username' => 'apikey',
+  //   'password' => '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',
+  //   'port' => '587'
+  // );
   
 
   $contact->add_message( $_POST['name'], 'From');
