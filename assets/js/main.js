@@ -253,12 +253,6 @@
    * Animation on scroll
    */
   window.addEventListener('load', () => {
-
-    alert('Prueba');
-    setTimeout(function(){
-      alert('Prueba 2');
-  }, 2000);
-
     AOS.init({
       duration: 1000,
       easing: 'ease-in-out',
