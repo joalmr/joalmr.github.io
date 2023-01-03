@@ -9,20 +9,20 @@
 # General
 --------------------------------------------------------------*/
 
-/* #2261CD */
-/* #2261CD */
+/* #6CD0FE */
+/* #6CD0FE */
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
 a {
-  color: #2261CD;
+  color: #6CD0FE;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #CAF4FE;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2261CD;
+  background: #6CD0FE;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2261CD;
+  border: 6px solid #6CD0FE;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
   color: #fff;
-  background: #2261CD;
+  background: #6CD0FE;
 }
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu li:hover > a span {
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #2261CD;
+  background-color: #6CD0FE;
 }
 
 /*--------------------------------------------------------------
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #2261CD;
+  color: #6CD0FE;
   letter-spacing: 1px;
 }
 
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a:hover {
-  color: #2261CD;
+  color: #6CD0FE;
 }
 
 @media (max-width: 992px) {
@@ -389,7 +389,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #2261CD;
+  background: #6CD0FE;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -425,7 +425,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #2261CD;
+  color: #6CD0FE;
   line-height: 0;
 }
 
@@ -451,7 +451,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #2261CD;
+  background: #6CD0FE;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -508,7 +508,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #2261CD;
+  background-color: #6CD0FE;
 }
 
 /*--------------------------------------------------------------
@@ -525,7 +525,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #2261CD;
+  border-left: 2px solid #6CD0FE;
   position: relative;
 }
 
@@ -535,7 +535,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #2261CD;
+  color: #6CD0FE;
   margin-bottom: 10px;
 }
 
@@ -569,7 +569,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #2261CD;
+  border: 2px solid #6CD0FE;
 }
 
 /*--------------------------------------------------------------
@@ -603,7 +603,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #2261CD;
+  color: #6CD0FE;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -749,11 +749,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2261CD;
+  border: 1px solid #6CD0FE;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2261CD;
+  background-color: #6CD0FE;
 }
 
 .portfolio-details .portfolio-info {
@@ -990,11 +990,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2261CD;
+  border: 1px solid #6CD0FE;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2261CD;
+  background-color: #6CD0FE;
 }
 
 @media (min-width: 992px) {
@@ -1013,7 +1013,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2261CD;
+  color: #6CD0FE;
   float: left;
   width: 44px;
   height: 44px;
@@ -1045,7 +1045,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #2261CD;
+  background: #6CD0FE;
   color: #fff;
 }
 
@@ -1115,7 +1115,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #2261CD;
+  background: #6CD0FE;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1179,7 +1179,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2261CD;
+  background: #6CD0FE;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
