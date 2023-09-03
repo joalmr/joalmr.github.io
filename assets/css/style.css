@@ -312,6 +312,7 @@ h6 {
   width: auto;
   margin-bottom: 25px;
 }
+
 #hero h1 {
   margin: 0;
   font-size: 64px;
@@ -1203,6 +1204,6 @@ section {
 }
 
 .portfolio .portfolio-wrap img {
-  max-height: 512px;
+  max-height: 432px;
   width: auto;
 }
