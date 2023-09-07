@@ -18,21 +18,21 @@
       }
       align-items: center;
       .item {
-        margin-bottom: 2.5px;
+        margin: 0 2.5px 0 0;
         padding: 10px 10px 20px 10px;
         text-align: left;
         .title {
           font-size: 20px;
           font-weight: 600;
-          margin-bottom: 5px;
+          margin: 0 5px 0 0;
         }
         .subtitle {
           font-size: 14px;
           text-transform: uppercase;
-          margin-bottom: 5px;
+          margin: 0 5px 0 0;
         }
         .badges {
-          margin-top: 5px;
+          margin: 5px 0 0 0;
         }
         .badge {
           display: inline-block;
