@@ -1,0 +1,103 @@
+.presentation {
+  height: 100vh;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: grid;
+  place-items: center;
+  @media screen and (max-width: 768px) {
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    text-align: left;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0;
+      }
+      img {
+        max-height: 75px;
+        width: auto;
+        margin-bottom: 25px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        @media screen and (max-width: 768px) {
+          font-size: 42px;
+        }
+      }
+      p {
+        font-size: 24px;
+        margin: 10px 0 0 0;
+        @media screen and (max-width: 768px) {
+          font-size: 18px;
+          margin: 0 0 0 0;
+        }
+      }
+      span {
+        font-size: 24px;
+        color: $color-primario;
+        margin: 0;
+        @media screen and (max-width: 768px) {
+          font-size: 18px;
+        }
+      }
+      .social-links {
+        margin-top: 20px;
+        img {
+          height: 32px;
+          margin: 10px;
+          color: $color-gris;
+          filter: brightness(45%) contrast(45%);
+          &:hover {
+            filter: brightness(100%) contrast(100%);
+          }
+        }
+      }
+    }
+  }
+
+  .skills {
+    padding: 20px;
+    margin-left: 100px;
+    @media screen and (max-width: 768px) {
+      padding: 0;
+      padding-top: 60px;
+      margin-left: 20px;
+    }
+    .skills-content {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      place-items: center;
+      gap: 20px;
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      img {
+        max-height: 42px;
+        width: auto;
+        filter: brightness(35%) contrast(35%);
+        &:hover {
+          filter: brightness(100%) contrast(100%);
+        }
+        @media screen and (max-width: 768px) {
+          filter: brightness(65%) contrast(65%);
+        }
+      }
+    }
+  }
+}

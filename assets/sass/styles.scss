@@ -24,7 +24,7 @@ body {
 
 section {
   margin-top: 20px;
-  padding: 50px 0;
+  // padding: 50px 0;
   background-color: $color-fondo;
   text-align: center;
   .section-title {
@@ -58,8 +58,8 @@ section {
   }
   .section-content {
     margin-top: 120px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
   }
 }
 
@@ -73,10 +73,12 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .section-content {
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
+  section {
+    .section-content {
+      margin-top: 80px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
   }
 }
 
@@ -92,10 +94,7 @@ a {
   }
 }
 
-@import "presentation";
-@import "about";
-@import "portfolio";
-@import "skills";
-@import "resume";
-@import "contact";
-@import "footer";
+@import "content/presentation";
+@import "content/portfolio";
+@import "content/contact";
+@import "content/footer";
