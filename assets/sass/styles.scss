@@ -18,6 +18,7 @@ Bulma
 
 body {
   font-family: "Open Sans", sans-serif;
+  background: $color-blanco;
   color: $color-gris;
   margin: 0;
 }
@@ -25,7 +26,8 @@ body {
 section {
   margin-top: 20px;
   // padding: 50px 0;
-  background-color: $color-fondo;
+  // background-color: $color-fondo;
+
   text-align: center;
   .section-title {
     text-align: center;

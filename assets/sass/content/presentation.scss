@@ -81,8 +81,8 @@
     .skills-content {
       margin-top: 80px;
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
       place-items: center;
+      grid-template-columns: repeat(6, 1fr);
       gap: 20px;
       @media screen and (max-width: 768px) {
         grid-template-columns: repeat(4, 1fr);

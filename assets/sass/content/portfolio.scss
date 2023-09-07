@@ -2,23 +2,25 @@
   .section-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 45px;
+    gap: 20px;
     .portfolio-item {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: flex-start;
       img {
-        width: 33.33%;
+        border-radius: 10px;
         height: 375px;
         width: auto;
-        border-radius: 25px;
+      }
+      .webview {
+        width: 240px !important;
+        height: auto !important;
       }
       align-items: center;
       .item {
         margin-bottom: 2.5px;
-        padding: 10px;
-        width: 66.66%;
-
+        padding: 10px 10px 20px 10px;
+        // 10 top, 10 bottom, 20 left, 10 right
         text-align: left;
         .title {
           font-size: 20px;
@@ -56,6 +58,8 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .portfolio {
     .section-content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
       .portfolio-item {
         .item {
           left: 0px;
@@ -70,10 +74,16 @@
   .portfolio {
     .section-content {
       grid-template-columns: repeat(1, 1fr);
+      gap: 5px;
       .portfolio-item {
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
         .item {
           left: 0px;
           right: 0px;
+          text-align: center;
         }
       }
     }
