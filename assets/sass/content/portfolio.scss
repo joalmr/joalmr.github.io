@@ -7,8 +7,9 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      img {
-        border-radius: 10px;
+      .img-project {
+        border: 2.5px solid $color-primario;
+        border-radius: 8px;
         height: 375px;
         width: auto;
       }
@@ -48,8 +49,8 @@
           img {
             max-height: 20px;
             width: auto;
-            margin: 5px;
-            padding: 0 5px 0 5px;
+            margin: 2.5px;
+            padding: 0 2.5px;
           }
         }
       }

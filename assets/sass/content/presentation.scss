@@ -88,7 +88,8 @@
       img {
         max-height: 42px;
         width: auto;
-        filter: brightness(65%) contrast(65%);
+        filter: brightness(100%) contrast(30%);
+        // filter: brightness(40%) invert(95%);
         &:hover {
           filter: brightness(100%) contrast(100%);
         }
