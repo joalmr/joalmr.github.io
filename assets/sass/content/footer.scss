@@ -22,9 +22,9 @@ footer {
       height: 32px;
       margin: 10px;
       filter: brightness(0%) invert(95%);
-      &:hover {
-        filter: brightness(100%) contrast(100%);
-      }
+      // &:hover {
+      //   filter: brightness(100%) contrast(100%);
+      // }
     }
   }
 }
