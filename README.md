@@ -1,3 +1,1 @@
-# CV
-
-Desarrollado con html y css puro
+Desarrollado con React + Vite
