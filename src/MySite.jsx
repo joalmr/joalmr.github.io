@@ -1,6 +1,5 @@
-import { Footer } from "./pages/Footer"
-import { Presentation } from "./pages/Presentation"
-
+import { Footer } from "./pages/footer/Footer"
+import { Presentation } from "./pages/presentation/Presentation"
 
 export const MySite = () => {
     return (
