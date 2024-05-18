@@ -1,11 +1,11 @@
 @import "../../sass/colors.scss";
 
 footer {
-  background: $color-base2;
+  background: $color-primario;
   font-size: 14px;
   text-align: center;
   padding: 30px 0 60px 0;
-  color: $color-apoyo;
+  color: $color-base;
   h3 {
     font-size: 36px;
     font-weight: 700;
@@ -14,8 +14,7 @@ footer {
     margin: 0 0 0 15px;
   }
   p {
-    font-style: italic;
-    color: $color-primario;
+    color: $color-base2;
     padding: 0;
     margin: 0 0 20px 0;
   }
