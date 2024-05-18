@@ -1,5 +1,7 @@
-import { Container } from "./presentation/Container"
-import { Skills } from "./presentation/Skills"
+import { Container } from "./components/Container"
+import { Skills } from "./components/Skills"
+
+import './presentation.scss'
 
 export const Presentation = () => {
     return (
