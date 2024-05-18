@@ -3,7 +3,7 @@
 export const Container = () => {
     return (
         <div className="container">
-            <img src="/icon.svg" alt="Skills" />
+            <img src="/icon.png" alt="Skills" />
             <h1>Alonso Massa</h1>
             <p><span>Mobile Developer</span></p>
             <div className="social-links">
