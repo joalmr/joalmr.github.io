@@ -1,6 +1,6 @@
+import './profile.scss'
 
-
-export const Container = () => {
+export const Profile = () => {
     return (
         <div className="container">
             <img src="/icon.png" alt="Skills" />

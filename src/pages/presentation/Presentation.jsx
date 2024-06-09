@@ -1,14 +1,13 @@
-import { Container } from "./components/Container"
-import { Skills } from "./components/Skills"
-import { Contact } from "./contact/Contact"
 
+
+import { Contact, Profile, Skills } from './components'
 import './presentation.scss'
 
 export const Presentation = () => {
     return (
         <section className="presentation">
             <div className="section-content">
-                <Container />
+                <Profile />
                 <Skills />
                 <Contact />
             </div>

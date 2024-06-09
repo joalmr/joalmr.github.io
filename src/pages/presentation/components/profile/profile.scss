@@ -1,0 +1,57 @@
+@import "../../../../sass/colors.scss";
+
+.container {
+    padding: 20px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0;
+    }
+
+    img {
+        max-height: 75px;
+        width: auto;
+        margin: 0 0 25px 0;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 42px;
+        }
+    }
+
+    p {
+        font-size: 24px;
+        margin: 10px 0 0 0;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            margin: 0 0 0 0;
+        }
+    }
+
+    span {
+        font-size: 24px;
+        color: $color-primario;
+        margin: 0;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+
+    .social-links {
+        margin: 5px 0 0 0;
+
+        img {
+            height: 32px;
+            margin: 10px;
+            filter: brightness(0%) invert(30%);
+        }
+    }
+}
