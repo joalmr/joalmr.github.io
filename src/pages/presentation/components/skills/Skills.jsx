@@ -1,3 +1,5 @@
+import './skills.scss'
+
 const skillsArr = [
     "Firebase",
     "Supabase",
