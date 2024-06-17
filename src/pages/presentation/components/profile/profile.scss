@@ -9,34 +9,33 @@
     }
 
     img {
-        max-height: 75px;
+        max-height: 200px;
         width: auto;
         margin: 0 0 25px 0;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        /* Añade una sombra para crear el borde difuminado */
+
+        @media screen and (max-width: 768px) {
+            max-height: 150px;
+        }
     }
 
     h1 {
         margin: 0;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 700;
-        line-height: 56px;
+        line-height: 36px;
 
         @media screen and (max-width: 768px) {
-            font-size: 42px;
-        }
-    }
-
-    p {
-        font-size: 24px;
-        margin: 10px 0 0 0;
-
-        @media screen and (max-width: 768px) {
-            font-size: 18px;
-            margin: 0 0 0 0;
+            font-size: 33px;
+            line-height: 33px;
         }
     }
 
     span {
-        font-size: 24px;
+        font-size: 18px;
         color: $color-primario;
         margin: 0;
 
@@ -46,12 +45,20 @@
     }
 
     .social-links {
-        margin: 5px 0 0 0;
+        margin: 2.5px 0 0 0;
+
+        @media screen and (max-width: 768px) {
+            margin: 10px 0px 10px 0px;
+        }
 
         img {
-            height: 32px;
-            margin: 10px;
+            height: 24px;
+            margin: 4px;
             filter: brightness(0%) invert(30%);
+
+            @media screen and (max-width: 768px) {
+                height: 27px;
+            }
         }
     }
 }
