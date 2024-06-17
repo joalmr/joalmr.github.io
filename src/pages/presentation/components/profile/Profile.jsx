@@ -3,10 +3,10 @@ import './profile.scss'
 export const Profile = () => {
     return (
         <div className="container">
-            <img src="/icon.png" alt="Skills" />
-            {/* <div className="css-peeps"></div> */}
+            <img src="./assets/img/me-pop.jpeg" alt="me" />
+            
             <h1>Alonso Massa</h1>
-            <p><span>Mobile Developer</span></p>
+            <span>Mobile Developer</span>
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/alonsomassa" target="_blank">
                     <img src="assets/svg/linkedin.svg" />
